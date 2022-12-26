@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mehmet Gümüş</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+            font-size: 17px;
+        }
+
+        #video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        #videoIcerik {
+            position: fixed;
+            color: #f1f1f1;
+            width: 100%;
+            padding: 500px;
+            text-align: center;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            text-shadow: 1px 2px 3px #392eb4;
+        }
+        #sosyal {
+            position: fixed;
+            width: 100%;
+            padding: 700px;
+            margin-right: 10px; 
+        }
+        #menu {
+            color: #110871;
+            position: fixed;
+            width: 20%;
+            padding: 50px;
+            margin-right: 10px; 
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#f39c12; 
+}
+
+ul li ul {
+    background-color:#2c3e50;
+    display:none;
+    position:absolute;
+    width:100px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+
+    </style>
+</head>
+<body>
+<video autoplay muted loop id="video">
+    <source src="C:\Users\mehme\Desktop\mehmetgumus.social\media\launching soon.mp4" type="video/mp4">
+</video>
+<div id="videoIcerik">
+    <p>Her şey önce hayal etmekle başlar...</p>
+</div>
+<div id="sosyal">
+<a href="https://www.instagram.com/persesmg/"><img src="C:\Users\mehme\Desktop\mehmetgumus.social\media\insta.png" width="50" height="50" alt="İnstagram" border="0"/></a>
+<a href="https://twitter.com/persesmg"><img src="C:\Users\mehme\Desktop\mehmetgumus.social\media\tw.png" width="50" height="50" alt="Twitter" border="0"/></a>
+<a href="https://www.linkedin.com/in/mehmetgümüş"><img src="C:\Users\mehme\Desktop\mehmetgumus.social\media\linkedin.png" width="50" height="50" alt="Linkedin" border="0"/></a>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="index.html">Main</a></li>
+        <li><a href="menü.html">Launch</a></li>
+    </ul>
+</div>
+</body>
+</html>
